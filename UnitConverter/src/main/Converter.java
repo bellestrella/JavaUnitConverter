@@ -16,7 +16,7 @@ public class Converter {
 		// Print your menu with numbered options
 		do {
 			printMenu();							// Display the menu
-			menuSelection = scanner.nextInt();		// Retrieve input from the user
+			menuSelection = scanner.nextInt();				// Retrieve input from the user
 			
 			// Based on the user input, pick your case.
 			switch (menuSelection) {
